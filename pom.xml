@@ -93,9 +93,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.0</version>
                 <configuration>
-                      <!--<argLine>
+                      <argLine>
                           &#45;&#45;illegal-access=permit
-                      </argLine>-->
+                      </argLine>
                     <!--<groups>controllers</groups>-->
                     <!--<excludedGroups>controllers</excludedGroups>-->
                     <useSystemClassLoader>false</useSystemClassLoader>
@@ -105,11 +105,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>2.22.0</version>
-                <!--<configuration>
+                <configuration>
                     <argLine>
                         &#45;&#45;illegal-access=permit
                     </argLine>
-                </configuration>-->
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
