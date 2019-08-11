@@ -97,7 +97,7 @@
                           &#45;&#45;illegal-access=permit
                       </argLine>-->
                     <!--<groups>controllers</groups>-->
-                    <excludedGroups>controllers</excludedGroups>
+                    <!--<excludedGroups>controllers</excludedGroups>-->
                     <useSystemClassLoader>false</useSystemClassLoader>
                 </configuration>
             </plugin>
