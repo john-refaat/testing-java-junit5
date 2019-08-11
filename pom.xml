@@ -98,7 +98,8 @@
                       </argLine>-->
                     <!--<groups>controllers</groups>-->
                     <excludedGroups>controllers</excludedGroups>
-                  </configuration>
+                    <useSystemClassLoader>false</useSystemClassLoader>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
